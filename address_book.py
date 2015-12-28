@@ -1,4 +1,5 @@
-import os, address_book_handler
+import os
+import address_book_handler
 
 target_file = os.path.join(os.getcwd(), 'Address Books', 'my_address_book.pkl')
 if not os.path.exists(os.path.dirname(target_file)):

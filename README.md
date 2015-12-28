@@ -10,11 +10,11 @@ usage: address_book.py [-h] [-a C [C ...]
                        | -sh | -cl]
 
 optional arguments:
+
   -h, --help            show this help message and exit
   
-  -a C [C ...], --add_contact C [C ...]
-												Add contacts to address book: name {space}
-                        email,{space} phone
+  -a, --add_contact C [C ...]
+												Add contacts to address book: name {space} email {space} phone
                         
   -s SEARCH_CONTACTS [SEARCH_CONTACTS ...], --search_contacts SEARCH_CONTACTS [SEARCH_CONTACTS ...]
                         Search contacts in address book
